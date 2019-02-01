@@ -6,7 +6,7 @@ const dbl = new DBL("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxMDEyMjMzND
 // Optional events
 dbl.on('posted', () => {
   console.log('Server count posted!');
-})
+}, 600000)
 
 dbl.on('error', e => {
  console.log(`Oops! ${e}`);
